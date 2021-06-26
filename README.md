@@ -78,7 +78,6 @@
 最後在要進行解析的class中調用以下function
        
       
-        TestData testData = new DeepLinkParser().parse(link, TestData.class);
          //deepLinkParser.parse執行後呼叫 testData1的getter 即可取出該變數值做事
          TestData1 testData1 = deepLinkParser.parse(link, TestData1.class);
          Log.e("name", testData1.getName() + "");
