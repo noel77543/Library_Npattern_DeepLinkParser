@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.noel.sung.library_npattern_deeplinkparser">
+
+    <application
+        android:allowBackup="true" />
+
+</manifest>
