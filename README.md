@@ -19,7 +19,7 @@
   - Add the dependency
   
         dependencies {
-                implementation 'com.github.noel77543:Library_Npattern_DeepLinkParser:v1.0.0'
+                implementation 'com.github.noel77543:Library_Npattern_DeepLinkParser:v1.0.1'
         }
 
 ---
