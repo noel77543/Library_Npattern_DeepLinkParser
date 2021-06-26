@@ -79,12 +79,12 @@
        
       
         TestData testData = new DeepLinkParser().parse(link, TestData.class);
-         //deepLinkParser.parse執行後呼叫 testData的getter 即可取出該變數值做事
+         //deepLinkParser.parse執行後呼叫 testData1的getter 即可取出該變數值做事
          TestData1 testData1 = deepLinkParser.parse(link, TestData1.class);
          Log.e("name", testData1.getName() + "");
          Log.e("id", testData1.getId() + "");
          
-         //deepLinkParser.parse執行後呼叫 testData的getter 即可取出該變數值做事
+         //deepLinkParser.parse執行後呼叫 testData2的getter 即可取出該變數值做事
          TestData2 testData2 = deepLinkParser.parse(link, TestData2.class);
          Log.e("name", testData2.getName() + "");
          Log.e("id", testData2.getId() + "");
