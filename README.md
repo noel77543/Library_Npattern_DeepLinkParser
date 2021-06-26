@@ -60,13 +60,13 @@
          @NParameter("user_id")
          private String id;
 
-       public String getName() {
-           return name;
-       }
+         public String getName() {
+             return name;
+         }
 
-       public String getId() {
-           return id;
-       }
+         public String getId() {
+             return id;
+         }
       }
 
 最後在要進行解析的class中調用以下function
