@@ -77,17 +77,17 @@
 
 最後在要進行解析的class中調用以下function
        
-       DeepLinkParser<TestData> deepLinkParser = new DeepLinkParser<>();
-          try {
-              //deepLinkParser.parse執行後呼叫 testData的getter 即可取出該變數值做事
-              TestData testData = deepLinkParser.parse(link, new TestData());
-              Log.e("name", testData.getName() + "");
-              Log.e("id", testData.getId() + "");
-          } catch (IllegalAccessException e) {
-              e.printStackTrace();
-          }
-  
-
+      
+        TestData testData = new DeepLinkParser().parse(link, TestData.class);
+         //deepLinkParser.parse執行後呼叫 testData的getter 即可取出該變數值做事
+         TestData1 testData1 = deepLinkParser.parse(link, TestData1.class);
+         Log.e("name", testData1.getName() + "");
+         Log.e("id", testData1.getId() + "");
+         
+         //deepLinkParser.parse執行後呼叫 testData的getter 即可取出該變數值做事
+         TestData2 testData2 = deepLinkParser.parse(link, TestData2.class);
+         Log.e("name", testData2.getName() + "");
+         Log.e("id", testData2.getId() + "");
 ---
 
 ### 備註remark
