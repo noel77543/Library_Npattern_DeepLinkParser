@@ -29,9 +29,9 @@
 
 > String link = "myApp://Q/grouping/profile?user_name=noel&user_id=2122345521";
 
-- 方法一 
+###### 方法一 
 
->不使用@NParameter
+- 不使用@NParameter
 
   宣告一個物件為TestData1
   如:
@@ -53,9 +53,9 @@
   
   
 
-- 方法二 
+###### 方法二 
 
->使用@NParameter
+- 使用@NParameter
 
   宣告一個物件為TestData2
   如:
