@@ -37,9 +37,9 @@
   如:
      
        public class TestData1 {
-          //變數名稱需等同link中藥取得的該變數user_name
+          //變數名稱需等同link中要取得的該變數user_name
           private String user_name;
-          //變數名稱需等同link中藥取得的該變數user_id
+          //變數名稱需等同link中要取得的該變數user_id
           private String user_id;
 
           public String getName() {
