@@ -1,5 +1,5 @@
 # Library_Npattern_DeepLinkParser
-以物件Reflect方式取得DeepLink持有的參數值
+以物件Reflect方式取得DeepLink/AppLinks持有的參數值
 
 
 
